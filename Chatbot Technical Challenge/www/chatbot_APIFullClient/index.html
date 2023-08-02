@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html>
+<head>
+		<meta charset="UTF-8">
+		<title>Vincent Seres POC Developer Challenge</title>
+		<script src="https://sdk.inbenta.io/chatbot/1/inbenta-chatbot-sdk.js"></script>
+</head>
+<body>
+</body>
+</html>
+<script>
+	var authorization = {
+		domainKey:"eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiJ9.eyJwcm9qZWN0IjoidmluY2VudF9zZXJlc3Rlc3RfN2M4NV9jaGF0Ym90X2VuIiwiZG9tYWluX2tleV9pZCI6IkJnSHpocERiX0pLZFBhUEFiejdRTGc6OiJ9.O7uzUkoXpBW3Ud4Whws7pWTPCF5M35tjAvgU41ll_ys8CCwYQpZuVz7riNO8YnAOWmDt3Yw8hKVvlA5sRpG1PQ",
+		inbentaKey:"BgHrvwotu1lIGfXOLGSjqq2xc1tst2BEaWQ0pgxhMBU="
+	}
+	var config = {
+		lang:'en',
+		environment: "development",
+		
+		answers:{
+			answerAttributes: ['ANSWER_TEXT'],
+			sideBubbleAttributes: ['SIDEBUBBLE_TEXT'],
+			maxRelatedContents: 3,
+			maxOptions: 3,
+		},
+		
+		proactiveWelcome : true,
+		relatedContentsExpand: false,
+		relatedPosition: "mixed",
+		autoDisplaySideWindow: true,
+		showDateTime: true,
+		
+		inputCharacterCounter: true,
+		inputCharacterCounterMax: 512,
+		delayOnAnswer: 2000,
+		delayOnMultipleAnswers: true,
+		showActivityOnDelay: 1000,
+		
+		usertype: 0,
+		skin: "teth-sunrise",
+		launcher: {
+			title: "Bien le bonjour"
+		},
+		closeButton: {
+			visible: true
+		},
+		
+		avatar: {
+			shouldUse: false,
+			displayPosition: "top",
+			avatarModel: "A1",
+			camera: "PC",
+			outfit: "skin_1"
+		},
+		
+		labels: {
+			en: {
+				'interface-title': 'Sandbox',
+				'alert-button': 'Try again',
+				'alert-message': 'Something went wrong, please click the button to reload.',
+				'alert-title': 'OOOOPS...!',
+				'close-chat': 'Do you want to close this chat?<p><div class=\'confirmation-box__subtitle\'>You will lose the entire conversation.<\/p><\/div>',
+				'submit': 'Submit',
+				'download': 'Download',
+				'generic-error-message': 'The format of your answer is not valid',
+				'enter-question': 'Type your text here',
+				'thanks' : 'Thank you!',
+				'rate-content' : 'Did it help?',
+				'form-message' : 'Please tell us why',
+				'submit' : 'Send'
+			}
+		},
+	
+		ratingOptions: [
+			{
+				id: 1,
+				label: 'yes',
+				comment: false
+			},
+			{
+				id: 2,
+				label: 'no',
+				comment: true
+			}
+		],
+	}
+	
+	InbentaChatbotSDK.buildWithDomainCredentials(authorization,config);
+</script>
