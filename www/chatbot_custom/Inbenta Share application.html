@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<!-- saved from url=(0181)https://shared-apps.inbenta.com/shared-applications/fa16224fcc7011680ef8909be5101cb453a58003b19ad2b1d5fbede4229f1ebc/6b86b273ff34fce19d6b804eff5a3f5747ada4eaa22f1d49c01e52ddb7875b4b -->
+<html class="inbenta-bot--chrome-115"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+        
+        <title>Inbenta Share application</title>
+        <link type="image/png" href="https://cdn.inbenta.io/static/images/inbenta-favicon.png" rel="icon">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+        <style>
+            
+        </style>
+        <!-- Inbenta SDK. Include the SDK script at the end of the page header where you want integrate the product. -->
+        <script src="./Inbenta Share application_files/inbenta-chatbot-sdk.js.téléchargement"></script>
+        <style>
+    @font-face {
+        font-family: 'inbentaOpenSans';
+        src: url('https://cdn.inbenta.io/static/fonts/OpenSans-Regular.woff2') format('woff2'),
+             url('https://cdn.inbenta.io/static/fonts/OpenSans-Regular.woff') format('woff');
+        font-weight: 400;
+        font-style: normal;
+    }
+   @font-face {
+        font-family: 'inbentaMontserrat';
+        src: url('https://cdn.inbenta.io/static/fonts/montserrat-light-webfont.woff2') format('woff2'),
+             url('https://cdn.inbenta.io/static/fonts/montserrat-light-webfont.woff') format('woff');
+        font-weight: 300;
+        font-style: normal;
+    }
+    @font-face {
+        font-family: 'inbentaFont';
+        src: url('https://cdn.inbenta.io/static/fonts/inbenta.woff2') format('woff2'),
+             url('https://cdn.inbenta.io/static/fonts/inbenta.woff') format('woff');
+        font-weight: normal;
+        font-style: normal;
+    }
+    body{
+        margin: 0;
+    }
+    .header{
+        display: -ms-flexbox;
+        display: -webkit-flex;
+        display: flex;
+        -webkit-flex-direction: column;
+        flex-direction: column;
+        -webkit-justify-content:center;
+        -ms-justify-content:center;
+        justify-content:center;
+        -webkit-align-items: center;
+        -ms-align-items: center;
+        align-items: center;
+        padding: 68px 0;
+        background-image:url("https://cdn.inbenta.io/static/images/product/inbenta-shared-app-hero.png");
+        background-size: cover;
+        color: white;
+        height: 188px;
+        box-sizing: border-box;
+    }
+    .header__title{
+        font-family: "inbentaMontserrat";
+        font-size: 22px;
+        line-height: 26px;
+    }
+    .header__subtitle{
+        font-family: "inbentaOpenSans";
+        font-size: 13.5px;
+        line-height: 22px;
+    }
+    .body{
+        background-color:white;
+        height: -moz-calc(100vh - 228px);
+        height: -webkit-calc(100vh - 228px);
+        height: calc(100vh - 228px);
+        padding: 0 40px;
+        overflow: auto;
+    }
+    .body__contents{
+        max-width: 648px;
+        width: 100%;
+        margin: 0px auto;
+        box-sizing: border-box;
+        padding: 40px 0;
+    }
+    .body__contents__gray-block{
+        background-color:#EEEEEE;
+        height: 24px;
+        margin-bottom: 23px;
+        width: 100%;
+    }
+    .footer{
+        display: -ms-flexbox;
+        display: -webkit-flex;
+        display: flex;
+        -webkit-align-items: center;
+        -ms-align-items: center;
+        align-items: center;
+        -webkit-justify-content:center;
+        -ms-justify-content:center;
+        justify-content:center;
+        font-family: "inbentaFont";
+        font-size: 18px;
+        height: 40px;
+        padding: 12px 10px;
+        background-color:#212121;
+        box-sizing: border-box;
+    }
+    .footer__logo{
+        color: white;
+    }
+    .footer__logo span{
+        color: #FF1744;
+    }
+</style>
+    <link rel="stylesheet" type="text/css" href="./Inbenta Share application_files/teth-sunrise.css"><link rel="preload" as="font" crossorigin="anonymous" type="font/woff2" href="https://cdn.inbenta.io/static/fonts/sdk-fonts/teth-sunrise.woff"></head>
+    <body class="inbenta-bot--open">
+        <div class="header">
+            <div class="header__title">Flat Eric</div>
+            <div class="header__subtitle"></div>
+        </div>
+        <div class="body">
+            <div class="body__contents">
+                <div class="body__contents__gray-block" style="width:194px"></div>
+                <div class="body__contents__gray-block"></div>
+                <div class="body__contents__gray-block" style="height: 120px"></div>
+                <div class="body__contents__gray-block"></div>
+                <div class="body__contents__gray-block"></div>
+                <div class="body__contents__gray-block" style="width:194px;margin-bottom: 0"></div>
+            </div>
+        </div>
+        <div class="footer">
+            <div class="footer__logo">in<span>b</span>enta</div>
+        </div>
+        <!-- Inbenta initialization and configuration. -->
+        <script>
+    function build() {
+        var config = {
+    "labels": {
+        "en": {
+            "alert-button": "Try again",
+            "alert-message": "Something went wrong, please click the button to reload.",
+            "alert-title": "OOOOPS...!",
+            "generic-error-message": "The format of your answer is not valid",
+            "close-chat": "Do you want to close this chat?<p><div class=\"confirmation-box__subtitle\">You will lose the entire conversation.<\/p><\/div>",
+            "enter-question": "Type your text here",
+            "submit": "Submit",
+            "download": "Download",
+            "chat-closed": "Chat closed",
+            "close-agent": "Do you want to leave the conversation with this agent?",
+            "wait-for-agent": "Waiting for an agent...",
+            "agent-left": "{agentName} has left the chat",
+            "agent-joined": "{agentName} has joined the chat",
+            "related-content-title": "You might also be interested in:",
+            "see-more": "More info",
+            "choose-option": "Choose an option",
+            "selected-option": "You have selected {variableLabel}",
+            "created-ticket": "Your ticket ID {ticketId} has been successfully created.",
+            "interface-title": "Sandbox"
+        }
+    },
+    "lang": "en",
+    "skin": "teth-sunrise",
+    "launcher": {
+        "title": "Bien le bonjour"
+    },
+    "inputCharacterCounter": true,
+    "autoDisplaySideWindow": true,
+    "inputCharacterCounterMax": 512,
+    "showDateTime": true,
+    "delayOnAnswer": 2000,
+    "delayOnMultipleAnswers": true,
+    "showActivityOnDelay": 1000,
+    "closeButton": {
+        "visible": true
+    },
+    "answers": {
+        "maxRelatedContents": 3,
+        "maxOptions": 3
+    },
+    "relatedContentsExpand": false,
+    "relatedPosition": "mixed",
+    "ratingOptions": [
+        {
+            "id": 1,
+            "comment": false
+        },
+        {
+            "id": 2,
+            "comment": true
+        }
+    ],
+    "ratingPosition": "mixed",
+    "avatar": {
+        "shouldUse": false,
+        "displayPosition": "top",
+        "avatarModel": "A1",
+        "camera": "PC",
+        "outfit": "skin_1"
+    },
+    "environment": "development",
+    "chatbotId": "64ca683b602b2"
+};
+        var authorization = {
+            domainKey: 'eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiJ9.eyJwcm9qZWN0IjoidmluY2VudF9zZXJlc3Rlc3RfN2M4NV9jaGF0Ym90X2VuIiwiZG9tYWluX2tleV9pZCI6IkJnSHJ2d3FoVXlMSmJGNXRneW1YekE6OiJ9.YLHAUgBRzFxf7JPcMPIF54I5js67BFOHKUkRFFdX_VVcc2z37jbHL0Xu5nPloFRdt2wWJwkp24mKYbeJnwX7vg',
+            inbentaKey: 'BgHrvwprU/Xx0XVaqSXWXCF7bHJS+3TqOpAUCsW6idw='
+        };
+
+        config['adapters'] = [];
+
+        
+        InbentaChatbotSDK.buildWithDomainCredentials(authorization, config);
+    }
+
+
+    var interval = setInterval(function() {
+        if (window.SDKHCAdapter) {
+            clearInterval(interval);
+            build();
+        }
+    }, 500);
+
+</script>
+        <!-- End of the Inbenta configuration. -->
+  
+  </body></html>
