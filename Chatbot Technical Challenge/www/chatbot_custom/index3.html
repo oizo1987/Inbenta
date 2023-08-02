@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Demo</title>
+    <script src="https://sdk.inbenta.io/chatbot/1/inbenta-chatbot-sdk.js"></script>
+</head>
+<body>
+</body>
+</html>
+<script>
+  var authorization = {
+    domainKey:"eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiJ9.eyJwcm9qZWN0IjoidmluY2VudF9zZXJlc3Rlc3RfN2M4NV9jaGF0Ym90X2VuIiwiZG9tYWluX2tleV9pZCI6IkJnSHpocERiX0pLZFBhUEFiejdRTGc6OiJ9.O7uzUkoXpBW3Ud4Whws7pWTPCF5M35tjAvgU41ll_ys8CCwYQpZuVz7riNO8YnAOWmDt3Yw8hKVvlA5sRpG1PQ",
+    inbentaKey:"BgHrvwotu1lIGfXOLGSjqq2xc1tst2BEaWQ0pgxhMBU="
+  }
+  InbentaChatbotSDK.buildWithDomainCredentials(authorization,
+    {
+      lang:'en',
+      answers:{
+        answerAttributes: ['ANSWER_TEXT'],
+        sideBubbleAttributes: ['SIDEBUBBLE_TEXT'],
+        maxRelatedContents: 3,
+      },
+      proactiveWelcome : true,
+      delayOnAnswer: 700,
+      usertype: 0,
+      environment: "development",
+      launcher: {
+        title:"InbentaBotSDK"
+      },
+      labels: {
+        en: {
+          'yes' : 'Sure',
+          'no' : 'Nope',
+          'generic-error-message' : 'Please try to answer again',
+          'enter-question' : 'Ask here',
+          'interface-title' : 'SDK Demo',
+          'guest-name' : 'You',
+          'help-question' : 'What can I help you with?',
+          'thanks' : 'Thank you!',
+          'rate-content' : 'Did it help?',
+          'form-message' : 'Please tell us why',
+          'submit' : 'Send'
+        }
+      },
+      ratingOptions: [
+        {
+          id: 1,
+          label: 'yes',
+          comment: false
+        },
+        {
+          id: 2,
+          label: 'no',
+          comment: true
+        }
+      ],
+    }
+  );
+</script>
