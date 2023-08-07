@@ -2,22 +2,21 @@
 <!-- Chatbot Technical Challenge - Helper -->
 
 <category>
-	<template>You mean Hey Arnold! A good cartoon for sure. 
+	<template>Download this document. It will be helpfull !
 	<img src="https://static-or00.inbenta.com/fa16224fcc7011680ef8909be5101cb453a58003b19ad2b1d5fbede4229f1ebc/Hey%20Arnold.jpg"></img>
 	</template>
 	<pattern>/HELP ALL</pattern>
 </category>
 
 <category>
-	<template>You mean Hey Arnold! A good cartoon for sure. 
+	<template>Take a look on Intent "Inbenta Developer Challenge Helper"
 	<img src="https://static-or00.inbenta.com/fa16224fcc7011680ef8909be5101cb453a58003b19ad2b1d5fbede4229f1ebc/Hey%20Arnold.jpg"></img>
 	</template>
 	<pattern>/HELP CONTENTCREATION</pattern>
 </category>
 
 <category>
-	<template>You mean Hey Arnold! A good cartoon for sure. 
-	<img src="https://static-or00.inbenta.com/fa16224fcc7011680ef8909be5101cb453a58003b19ad2b1d5fbede4229f1ebc/Hey%20Arnold.jpg"></img>
+	<template>Follow this link: <a href="https://shared-apps.inbenta.com/shared-applications/fa16224fcc7011680ef8909be5101cb453a58003b19ad2b1d5fbede4229f1ebc/d4735e3a265e16eee03f59718b9b5d03019c07d8b6c51f90da3a666eec13ab35" target="_blank">Vincent Seres Test Chatbot instance</a>
 	</template>
 	<pattern>/HELP INTERFACE</pattern>
 </category>
