@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?><aiml version="2.0">
+<!-- Chatbot Technical Challenge - HEY BOT -->
+<category>
+<template>You mean Hey Arnold! A good cartoon for sure. 
+<img src="https://static-or00.inbenta.com/fa16224fcc7011680ef8909be5101cb453a58003b19ad2b1d5fbede4229f1ebc/Hey%20Arnold.jpg"></img>
+</template>
+<pattern>HEY BOT</pattern>
+</category>
+<category><template><srai>HYE BOT</srai></template><pattern>HEY ARNOLD</pattern></category>
+</aiml>

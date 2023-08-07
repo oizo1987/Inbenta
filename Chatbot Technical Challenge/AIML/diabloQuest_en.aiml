@@ -2,13 +2,11 @@
 <!-- Diablo 1 quests patterns -->
 <category>
 <template>The Butcher quest is the first and most iconic of Diablo 1. Everything start with an almost dead men front of Tristram church saying to you: "Please, listen to me. The Archbishop Lazarus, he led us down here to find the lost prince. The bastard led us into a trap! Now everyone is dead...Killed by a Demon he called the Butcher. Avenge us! Find this Butcher and slay him so that our souls may finally rest..." . After facing The Butcher you will have to face dead corrupted King Leoric. Take a look on this vidz to know a bit more about Diablo 1 quests ! <a href="https://www.youtube.com/watch?v=Odi5iR9Ni50&amp;ab_channel=CarbotAnimations" target="_blank" class="link_youtube" title="Youtube">Diablo - The Butcher (Diablo 1)</a></template>
-<pattern>Diablo 1 quest - The Butcher</pattern>
+<pattern>DIABLO 1 THE BUTCHER</pattern>
 <set name="topic">The Butcher quest</set>
 </category>
-<category><template><srai>Diablo 1 quest - The Butcher</srai></template><pattern>Butcher quest</pattern></category>
-<category><template><srai>Diablo 1 quest - The Butcher</srai></template><pattern>The Butcher quest</pattern></category>
-<category><template><srai>Diablo 1 quest - The Butcher</srai></template><pattern>Diablo 1 first quest</pattern></category>
-<category><template><srai>Diablo 1 quest - The Butcher</srai></template><pattern>First quest of Diablo 1</pattern></category>
-<category><template><srai>Diablo 1 quest - The Butcher</srai></template><pattern>hey bot</pattern></category>
-<category><template><srai>Diablo 1 quest - The Butcher</srai></template><pattern>hey Arnold</pattern></category>
+<category><template><srai>DIABLO 1 THE BUTCHER</srai></template><pattern>BUTCHER QUEST</pattern></category>
+<category><template><srai>DIABLO 1 THE BUTCHER</srai></template><pattern>THE BUTCHER QUEST</pattern></category>
+<category><template><srai>DIABLO 1 THE BUTCHER</srai></template><pattern>DIABLO 1 FIRST QUEST</pattern></category>
+<category><template><srai>DIABLO 1 THE BUTCHER</srai></template><pattern>FIRST QUEST OF DIABLO 1</pattern></category>
 </aiml>

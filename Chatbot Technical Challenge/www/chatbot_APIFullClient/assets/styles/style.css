@@ -1,0 +1,50 @@
+.inbenta-bot .ui-draggable,.inbenta-bot .ui-not-draggable {
+	/*VSE set relative position but draggable centered width, % heigh*/
+
+	position: fixed!important;
+	top: 25%!important;
+	right: !important;
+	bottom: !important;
+	left: 50%!important;
+	z-index: 999999
+}
+
+.inbenta-bot__bubble,.inbenta-bot__chat {
+	/*VSE chatbot frame with 100%, height fixed */
+	background-color: #f6f6f6;
+	width: 100% !important;
+	height: 8px;
+	box-shadow: 0 2px 3px 0 rgba(0,0,0,.16),0 3px 12px 0 rgba(0,0,0,.08);
+	border-radius: 4px;
+	border: 0 solid transparent
+}
+
+.inbenta-bot__bubble__header,.inbenta-bot__chat__header {
+	/*VSE change head chatbot style */
+
+	background-color: midnightblue !important;
+	color: #fff;
+	padding: 8px 16px;
+	box-shadow: 0 2px 3px 0 rgba(0,0,0,.16),0 3px 12px 0 rgba(0,0,0,.08);
+	line-height: 30px !important;
+}
+
+.inbenta-bot--msie-11 .inbenta-bot__bubble .body__inbenta-alert__alert-box .alert-box__title,.inbenta-bot--msie-11 .inbenta-bot__chat .body__inbenta-alert__alert-box .alert-box__title {
+	/*VSE set alert box bg to orange/red */
+	color: #c8492d !important;
+}
+.inbenta-bot__bubble .messages__message--received .messages__message__avatar,.inbenta-bot__chat .messages__message--received .messages__message__avatar {
+	/*VSE Remove hcatbot text frame icon */
+}
+
+
+.inbenta-bot__powered {
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    -ms-flex-pack: flex-end;
+    -webkit-justify-content: flex-end;
+    -ms-justify-content: flex-end;
+    justify-content: flex-start !important;
+    align-content: flex-end;
+}

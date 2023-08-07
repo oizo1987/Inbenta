@@ -1,13 +1,16 @@
 <!DOCTYPE html>
 <html>
-<head>
-		<meta charset="UTF-8">
-		<title>Vincent Seres POC Developer Challenge</title>
-		<script src="https://sdk.inbenta.io/chatbot/1/inbenta-chatbot-sdk.js"></script>
-</head>
-<body>
-</body>
+	<head>
+			<meta charset="UTF-8">
+			<title>Vincent Seres POC Developer Challenge</title>
+			<script src="https://sdk.inbenta.io/chatbot/1/inbenta-chatbot-sdk.js"></script>
+			<link rel="stylesheet" type="text/css" href="assets\styles\style.css">
+	</head>
+
+	<body>
+	</body>
 </html>
+
 <script>
 	var authorization = {
 		domainKey:"eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiJ9.eyJwcm9qZWN0IjoidmluY2VudF9zZXJlc3Rlc3RfN2M4NV9jaGF0Ym90X2VuIiwiZG9tYWluX2tleV9pZCI6IkJnSHpocERiX0pLZFBhUEFiejdRTGc6OiJ9.O7uzUkoXpBW3Ud4Whws7pWTPCF5M35tjAvgU41ll_ys8CCwYQpZuVz7riNO8YnAOWmDt3Yw8hKVvlA5sRpG1PQ",
@@ -37,6 +40,7 @@
 		showActivityOnDelay: 1000,
 		
 		usertype: 0,
+		/*skin: false,*/
 		skin: "teth-sunrise",
 		launcher: {
 			title: "Bien le bonjour"
@@ -44,14 +48,14 @@
 		closeButton: {
 			visible: true
 		},
-		
+		/*
 		avatar: {
-			shouldUse: false,
-			displayPosition: "top",
-			avatarModel: "A1",
-			camera: "PC",
-			outfit: "skin_1"
+			shouldUse: true,
+			name : 'Flat Eric',
+			displayPosition: 'top',
+			displayImage:'\assets\images\FlatEric.jpg'
 		},
+		*/
 		
 		labels: {
 			en: {
@@ -63,7 +67,7 @@
 				'submit': 'Submit',
 				'download': 'Download',
 				'generic-error-message': 'The format of your answer is not valid',
-				'enter-question': 'Type your text here',
+				'enter-question': 'Ask me anything you want',
 				'thanks' : 'Thank you!',
 				'rate-content' : 'Did it help?',
 				'form-message' : 'Please tell us why',
@@ -84,6 +88,12 @@
 			}
 		],
 	}
+	
+	/*chatBot.subscriptions.onSendMessage( function(messageData, next) {
+		messageData.message = messageData.message.replace(regex, replaceWith);
+		return next(messageData);
+	}
+	*/
 	
 	InbentaChatbotSDK.buildWithDomainCredentials(authorization,config);
 </script>
