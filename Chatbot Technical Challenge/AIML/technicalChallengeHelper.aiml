@@ -3,8 +3,8 @@
 
 <category>
 	<template>Download this document. It will be helpfull !
-	<a href="https://github.com/oizo1987/Inbenta/blob/main/Chatbot%20Technical%20Challenge/2023-08-02%20Inbenta%20Developer%20Challenge%20-%20Vincent%20Seres%20Proof%20of%20Completion%20for%20Delivery%20Manager%20vacancy.docx" target="_blank">2023-08-02 Inbenta Developer Challenge - Vincent Seres Proof of Completion for Delivery Manager vacancy.docx</a>
-	<a href="https://github.com/oizo1987/Inbenta/blob/main/Chatbot%20Technical%20Challenge/2023-08-02%20Inbenta%20Developer%20Challenge%20-%20Vincent%20Seres%20Proof%20of%20Completion%20for%20Delivery%20Manager%20vacancy.pdf" target="_blank">2023-08-02 Inbenta Developer Challenge - Vincent Seres Proof of Completion for Delivery Manager vacancy.pdf</a>
+	<a href="https://github.com/oizo1987/Inbenta/blob/main/Chatbot%20Technical%20Challenge/Deliverables/2023-08-02%20Inbenta%20Developer%20Challenge%20-%20Vincent%20Seres%20Proof%20of%20Completion%20for%20Delivery%20Manager%20vacancy.docx" target="_blank">2023-08-02 Inbenta Developer Challenge - Vincent Seres Proof of Completion for Delivery Manager vacancy.docx</a>
+	<a href="https://github.com/oizo1987/Inbenta/blob/main/Chatbot%20Technical%20Challenge/Deliverables/2023-08-02%20Inbenta%20Developer%20Challenge%20-%20Vincent%20Seres%20Proof%20of%20Completion%20for%20Delivery%20Manager%20vacancy.pdf" target="_blank">2023-08-02 Inbenta Developer Challenge - Vincent Seres Proof of Completion for Delivery Manager vacancy.pdf</a>
 	</template>
 	<pattern>/HELP ALL</pattern>
 </category>
