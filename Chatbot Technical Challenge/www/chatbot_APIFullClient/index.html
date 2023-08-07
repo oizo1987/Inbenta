@@ -2,9 +2,8 @@
 <html>
 
 	<style>
-
-	.inbenta-bot .ui-draggable,.inbenta-bot .ui-not-draggable {
-		/*VSE set relative position but draggable centered width, % heigh*/
+/*	.inbenta-bot .ui-draggable,.inbenta-bot .ui-not-draggable {
+		//VSE set relative position but draggable centered width, % heigh
 
 		position: fixed!important;
 		top: 25%!important;
@@ -15,7 +14,7 @@
 	}
 
 	.inbenta-bot__bubble,.inbenta-bot__chat {
-		/*VSE chatbot frame with 100%, height fixed */
+		//VSE chatbot frame with 100%, height fixed
 		background-color: #f6f6f6;
 		width: 100% !important;
 		height: 8px;
@@ -23,9 +22,9 @@
 		border-radius: 4px;
 		border: 0 solid transparent
 	}
-
+*/
 	.inbenta-bot__bubble__header,.inbenta-bot__chat__header {
-		/*VSE change head chatbot style */
+		/*VSE change head chatbot style*/
 
 		background-color: #C2DFFF !important;
 		color: #fff;
@@ -35,11 +34,11 @@
 	}
 
 	.inbenta-bot--msie-11 .inbenta-bot__bubble .body__inbenta-alert__alert-box .alert-box__title,.inbenta-bot--msie-11 .inbenta-bot__chat .body__inbenta-alert__alert-box .alert-box__title {
-		/*VSE set alert box bg to orange/red */
+		/*VSE set alert box bg to orange/red*/
 		color: #c8492d !important;
 	}
 	.inbenta-bot__bubble .messages__message--received .messages__message__avatar,.inbenta-bot__chat .messages__message--received .messages__message__avatar {
-		/*VSE Remove chatbot text frame icon */
+		/*VSE Remove chatbot text frame icon*/
 	}
 
 
@@ -191,17 +190,22 @@
 			{
 				chatBot.api.getVariables().then(function(data) // get variables
 				{ 
-					var color = data.data.color.value;
-					if (color != null) {
-						chatBot.api.resetVariables(['color'])
-						color = null;
-						
-						var url = "<a href='https://www.google.com/search?q=" + data.data.color.value + "&source=lnms&tbm=isch' target='_blank'>Google Search for " + data.data.color.value + " color</a>";
-						var SideWindow = {
-							sideWindowContent: "<p>take a look on this URL : "+ url + "</p>",
-							sideWindowTitle: "Google search color",
+					try {
+						var color = data.data.color.value;
+						if (color != null) {
+							chatBot.api.resetVariables(['color'])
+							color = null;
+							
+							var url = "<a href='https://www.google.com/search?q=" + data.data.color.value + "&source=lnms&tbm=isch' target='_blank'>Google Search for " + data.data.color.value + " color</a>";
+							var SideWindow = {
+								sideWindowContent: "<p>take a look on this URL : "+ url + "</p>",
+								sideWindowTitle: "Google search color",
+							}
+							chatBot.actions.showSideWindow(SideWindow);
 						}
-						chatBot.actions.showSideWindow(SideWindow);
+					} catch (e) { //catch TypeError: Cannot read properties of undefined (reading 'value')
+						//console.error(e);
+						//Expected output: Error: Parameter is not a number!
 					}
 					return;
 				});
