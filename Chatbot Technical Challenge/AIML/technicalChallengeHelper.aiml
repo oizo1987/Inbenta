@@ -3,69 +3,60 @@
 
 <category>
 	<template>Download this document. It will be helpfull !
-	<img src="https://static-or00.inbenta.com/fa16224fcc7011680ef8909be5101cb453a58003b19ad2b1d5fbede4229f1ebc/Hey%20Arnold.jpg"></img>
+	<a href="https://github.com/oizo1987/Inbenta/blob/main/Chatbot%20Technical%20Challenge/2023-08-02%20Inbenta%20Developer%20Challenge%20-%20Vincent%20Seres%20Proof%20of%20Completion%20for%20Delivery%20Manager%20vacancy.docx" target="_blank">2023-08-02 Inbenta Developer Challenge - Vincent Seres Proof of Completion for Delivery Manager vacancy.docx</a>
+	<a href="https://github.com/oizo1987/Inbenta/blob/main/Chatbot%20Technical%20Challenge/2023-08-02%20Inbenta%20Developer%20Challenge%20-%20Vincent%20Seres%20Proof%20of%20Completion%20for%20Delivery%20Manager%20vacancy.pdf" target="_blank">2023-08-02 Inbenta Developer Challenge - Vincent Seres Proof of Completion for Delivery Manager vacancy.pdf</a>
 	</template>
 	<pattern>/HELP ALL</pattern>
 </category>
 
 <category>
-	<template>Take a look on Intent "Inbenta Developer Challenge Helper"
-	<img src="https://static-or00.inbenta.com/fa16224fcc7011680ef8909be5101cb453a58003b19ad2b1d5fbede4229f1ebc/Hey%20Arnold.jpg"></img>
-	</template>
+	<template>Take a look on Intent "Inbenta Developer Challenge Helper"</template>
 	<pattern>/HELP CONTENTCREATION</pattern>
 </category>
 
 <category>
-	<template>Follow this link: <a href="https://shared-apps.inbenta.com/shared-applications/fa16224fcc7011680ef8909be5101cb453a58003b19ad2b1d5fbede4229f1ebc/d4735e3a265e16eee03f59718b9b5d03019c07d8b6c51f90da3a666eec13ab35" target="_blank">Vincent Seres Test Chatbot instance</a>
-	</template>
+	<template>Follow this link: <a href="https://shared-apps.inbenta.com/shared-applications/fa16224fcc7011680ef8909be5101cb453a58003b19ad2b1d5fbede4229f1ebc/d4735e3a265e16eee03f59718b9b5d03019c07d8b6c51f90da3a666eec13ab35" target="_blank">Vincent Seres Test Chatbot instance</a></template>
 	<pattern>/HELP INTERFACE</pattern>
 </category>
 
 <category>
-	<template>You mean Hey Arnold! A good cartoon for sure. 
-	<img src="https://static-or00.inbenta.com/fa16224fcc7011680ef8909be5101cb453a58003b19ad2b1d5fbede4229f1ebc/Hey%20Arnold.jpg"></img>
-	</template>
+	<template>This is what you are looking for: <a href="https://github.com/oizo1987/Inbenta/blob/main/Chatbot%20Technical%20Challenge/AIML/heybot_en.aiml" target="_blank">Vincent Seres GITHUB Raw heybot_en.aiml</a></template>
 	<pattern>/HELP AIML</pattern>
 </category>
 
 <category>
-	<template>You mean Hey Arnold! A good cartoon for sure. 
-	<img src="https://static-or00.inbenta.com/fa16224fcc7011680ef8909be5101cb453a58003b19ad2b1d5fbede4229f1ebc/Hey%20Arnold.jpg"></img>
-	</template>
+	<template>Check backend parameters.</template>
 	<pattern>/HELP CONFIGUREWITHBACKEND</pattern>
 </category>
 
 <category>
-	<template>You mean Hey Arnold! A good cartoon for sure. 
-	<img src="https://static-or00.inbenta.com/fa16224fcc7011680ef8909be5101cb453a58003b19ad2b1d5fbede4229f1ebc/Hey%20Arnold.jpg"></img>
-	</template>
+	<template>Browse publis URL : <a href="https://oizochat.tiiny.site/" target="_blank">oizochat.tiiny.site</a></template>
 	<pattern>/HELP HOSTINGCHATBOT</pattern>
 </category>
 
 <category>
-	<template>You mean Hey Arnold! A good cartoon for sure. 
-	<img src="https://static-or00.inbenta.com/fa16224fcc7011680ef8909be5101cb453a58003b19ad2b1d5fbede4229f1ebc/Hey%20Arnold.jpg"></img>
+	<template><a href="https://github.com/oizo1987/Inbenta/blob/main/Chatbot%20Technical%20Challenge/www/chatbot_APIFullClient/assets/styles/style.css" target="_blank">Download custom CSS sheet</a> and <a href="https://github.com/oizo1987/Inbenta/blob/main/Chatbot%20Technical%20Challenge/www/chatbot_APIFullClient/assets/styles/space-cowboy.css" target="_blank">Check CSS for Space cowboy template</a>
 	</template>
 	<pattern>/HELP CSS</pattern>
 </category>
 
 <category>
-	<template>You mean Hey Arnold! A good cartoon for sure. 
-	<img src="https://static-or00.inbenta.com/fa16224fcc7011680ef8909be5101cb453a58003b19ad2b1d5fbede4229f1ebc/Hey%20Arnold.jpg"></img>
+	<template>
+	Look at "config" variable on file <a href="https://github.com/oizo1987/Inbenta/blob/main/Chatbot%20Technical%20Challenge/www/chatbot_APIFullClient/index.html" target="_blank">index.html</a>
 	</template>
 	<pattern>/HELP CONFIGUREWITHJS</pattern>
 </category>
 
 <category>
-	<template>You mean Hey Arnold! A good cartoon for sure. 
-	<img src="https://static-or00.inbenta.com/fa16224fcc7011680ef8909be5101cb453a58003b19ad2b1d5fbede4229f1ebc/Hey%20Arnold.jpg"></img>
+	<template>
+	Look at "function showSystemMessageConversation()" on file <a href="https://github.com/oizo1987/Inbenta/blob/main/Chatbot%20Technical%20Challenge/www/chatbot_APIFullClient/index.html" target="_blank">index.html</a>
 	</template>
 	<pattern>/HELP CUSTOMJS</pattern>
 </category>
 
 <category>
-	<template>You mean Hey Arnold! A good cartoon for sure. 
-	<img src="https://static-or00.inbenta.com/fa16224fcc7011680ef8909be5101cb453a58003b19ad2b1d5fbede4229f1ebc/Hey%20Arnold.jpg"></img>
+	<template>
+	Look at "function googleSearchURL_image()" on file <a href="https://github.com/oizo1987/Inbenta/blob/main/Chatbot%20Technical%20Challenge/www/chatbot_APIFullClient/index.html" target="_blank">index.html</a>
 	</template>
 	<pattern>/HELP FORMCONTENT</pattern>
 </category>
